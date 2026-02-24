@@ -28,7 +28,7 @@ As a result:
 
 ### Architecture Diagram
 
-![Architecture Diagram](screenshots/endpoint-arc.png)
+![Architecture Diagram](https://github.com/Emaan-Chaudhary/aws-s3-vpc-endpoint/blob/main/screenshots/endpoint-arc.png?raw=true)
 
 The diagram illustrates how an EC2 instance inside a VPC accesses Amazon S3 **privately** using a Gateway VPC Endpoint, without traversing the public internet.
 
@@ -43,7 +43,8 @@ The diagram illustrates how an EC2 instance inside a VPC accesses Amazon S3 **pr
 * Restrictive S3 bucket policy
 
 ### Traffic Flow
-![Architecture Diagram](screenshots/vpc.png)
+![Architecture Diagram](https://github.com/Emaan-Chaudhary/aws-s3-vpc-endpoint/blob/main/screenshots/vpc.png?raw=true)
+
 ```
 EC2 Instance
    ↓
@@ -84,7 +85,8 @@ Key characteristics:
 This approach follows a **zero-trust model**, where access is granted only when both identity and network conditions are satisfied.
 
 ---
-![Architecture Diagram](screenshots/ec2.png)
+![Architecture Diagram](https://github.com/Emaan-Chaudhary/aws-s3-vpc-endpoint/blob/main/screenshots/ec2.png?raw=true)
+
 
 ## ✅ Validation and Guarantees
 
